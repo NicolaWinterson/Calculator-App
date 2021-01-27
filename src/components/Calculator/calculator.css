@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+@media screen and (max-width: 660px) {
+    .calculator-container {
+        background-color: #417e7c;
+        margin: 0;
+        padding: 1%;
+    }   
+}
+
+@media screen and (min-width: 661px) {
+    .calculator-container {
+        background-color: #3fb0ac;
+        margin: 10% 30% 35% 30%;
+        padding: 1%;
+    }
+
+}
+
+.calculator-button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+.calculator-button_wide {
+    flex-grow: 2;
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+.calculator-button_reset_wide {
+    flex-grow: 2;
+    background-color: #fae596;
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+}
+
+.calculator-button_reset {
+    background-color: #fae596;
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+}
+
+.calculator-button_operand {
+    background-color: #dddfd4;
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+}
+
+.calculator-button:active, .calculator-button_wide:active, .calculator-button_reset:active, .calculator-button_reset_wide:active, .calculator-button_operand:active {
+    color: #173e43;
+}

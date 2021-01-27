@@ -1,0 +1,6 @@
+.calculator-row {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
